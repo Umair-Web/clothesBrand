@@ -1,0 +1,109 @@
+.hero-main{
+background-color: #F2EAD3;
+height: 82vh;
+margin: 50px 90px;
+border-radius: 30px;
+border-color: #3F2305;
+display: grid;
+grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+}
+
+.hero-content{
+    height: 40%;
+    padding: 40px;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* border:2px solid red; */
+    text-align: center;
+}
+.hero-content h1{
+    color: #3F2305;
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+.hero-content p{
+  color: #3F2305;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.hero-content h2{
+    color: #3F2305;
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+.hero-image{
+    
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    /* padding-top: 20px;
+    margin: auto 20px;
+    margin-bottom: 20px; */
+  
+
+   
+    
+}
+ 
+ .hero-inside{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 50px;
+    
+    
+} 
+
+
+.hero-button{
+    all:unset;
+    margin-top: 25px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3F2305;
+    background-color: #F2EAD3;
+    border-color:#3F2305 ;
+    border: 2px solid #3F2305;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero-button:hover{
+    color: #F2EAD3;
+    background-color: #3F2305;
+}
+Slider{
+    border: 3px solid red;
+}
+@media (max-width:716px){
+    .hero-main{
+        height: 1400px;
+        margin: 40px 40px;
+        /* border: 3px solid red; */
+    }
+    .hero-image{
+        /* border: 3px solid red; */
+        margin-right: 30px;
+    }
+}
+@media (max-width:719px){
+    .hero-main{
+        height: 1400px;
+        margin: 40px 40px;
+        /* border: 3px solid red; */
+    }
+ 
+}
+@media (max-width:462px){
+    .hero-main{
+        height: 1500px;
+        margin: 40px 40px;
+        /* border: 3px solid red; */
+    }
+ 
+}

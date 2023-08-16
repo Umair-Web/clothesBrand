@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Libre+Franklin:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-main{
+    height: 80px;
+    background-color:#DFD7BF;
+    border-radius: 0px 0px 20px 20px;
+    /* border:2px solid red; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 80px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.nav-heading  {
+    /* border:2px solid rgb(0, 38, 255); */
+    font-size: 30px;
+    font-weight: 800;
+    color: #3F2305;
+    
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    /* border:2px solid red; */
+    margin-top: 25px;
+}
+ul li{
+    all: unset;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3F2305;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.nav-button{
+    all:unset;
+    margin-top: 25px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3F2305;
+    background-color: #DFD7BF;
+    border-color:#3F2305 ;
+    border: 2px solid #3F2305;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.nav-button:hover{
+    color: #DFD7BF;
+    background-color: #3F2305;
+}
+ul li:hover{
+    cursor: pointer;
+    border-top:2px solid #3F2305;
+    border-bottom:2px solid #3F2305;
+}
+.menu{
+   display: none;
+    margin-top: 20px;
+
+}
+i{
+   
+    font-size: 40px;
+    
+}
+@media only screen and (max-width:858px){
+ .fill{
+    display: none;
+    border:2px solid red;
+    position: absolute;
+    top: 150px;
+    right:14%
+    
+ }
+ ul{
+    margin-top: 0px;
+ 
+    display: flex;
+    flex-direction: column;
+ }
+ ul li{
+ margin-top: 40px;
+ align-items: center;
+
+ }
+ .nav-button{
+    display: none;
+ }
+ .menu{
+    display: block;
+ }
+}
